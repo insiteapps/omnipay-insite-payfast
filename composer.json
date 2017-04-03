@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/insite-payfast",
+    "name": "insiteapps/payfast",
     "type": "library",
     "description": "PayFast driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,7 +10,7 @@
         "payfast",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-payfast",
+    "homepage": "https://github.com/insiteapps/omnipay-insite-payfast/",
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\PayFast\\" : "src/" }
+        "psr-4": { "Omnipay\\InsitePayFast\\" : "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"
